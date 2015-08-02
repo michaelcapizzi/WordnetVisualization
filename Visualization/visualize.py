@@ -18,7 +18,7 @@ import sys
 #       type of dimension reduction ("p" = PCA, "t" = TSNE)
 
 # TODO - handle if there is not data in the relation type
-# TODO - add parameter for types of wordnet relationships to include
+# TODO - add parameter for types of wordnet relationships to include or exclude
 
 # access word2Vec model
 model = gensim.models.word2vec.Word2Vec.load_word2vec_format("/home/mcapizzi/Google_Drive_Arizona/Programming/word2Vec/GoogleNews-vectors-negative300.bin.gz", binary=True)
