@@ -99,7 +99,7 @@ else:
 
 ####### KMeans
 
-total_data = np.concatenate((syn_output, ant_output))#, hyper_output, hypo_output))
+total_data = np.concatenate((syn_output, ant_output))
 
 print("clustering Word2Vec vectors with k = 2")
 
@@ -112,18 +112,18 @@ centroids = kmeans.cluster_centers_
 
 syn_cluster = kmeans.predict(syn_output)
 #TODO add distribution count
-(syn_cluster1, syn_cluster2) = (syn_cluster.count(0), syn_cluster.count(1))
+(syn_cluster1, syn_cluster2) = (syn_cluster.tolist().count(0), syn_cluster.tolist().count(1))
 print("\n")
 print("synonyms are in the following clusters: " + str(syn_cluster).strip('[]'))
-print("distribution: cluster #1 --> " + str() + ", cluster #2 --> " + str())
+print("distribution: cluster #1 --> " + str(syn_cluster1) + ", cluster #2 --> " + str(syn_cluster2))
 print("\n")
 
 ant_cluster = kmeans.predict(ant_output)
 #TODO add distribution count
-(ant_cluster1, ant_cluster2) = (ant_cluster.count(0), ant_cluster.count(1))
+(ant_cluster1, ant_cluster2) = (ant_cluster.tolist().count(0), ant_cluster.tolist().count(1))
 print("\n")
 print("antonyms are in the following clusters: " + str(ant_cluster).strip('[]'))
-print("distribution: cluster #1 --> " + str() + ", cluster #2 --> " + str())
+print("distribution: cluster #1 --> " + str(ant_cluster1) + ", cluster #2 --> " + str(ant_cluster2))
 print("\n")
 
 ####### plot results
