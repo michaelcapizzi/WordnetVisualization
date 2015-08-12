@@ -4,8 +4,6 @@ from nltk.corpus import wordnet
 
 # http://www.nltk.org/_modules/nltk/corpus/reader/wordnet.html
 
-# TODO add loop capacity
-# TODO add POS capacity
 def get_wn_relation(word, relationship):
     worddict = []
 
