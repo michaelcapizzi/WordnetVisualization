@@ -25,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="accessWordnet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/accessWordnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="visualize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Visualization/visualize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6357504">
-              <caret line="249" column="56" selection-start-line="249" selection-start-column="56" selection-end-line="249" selection-end-column="56" />
+              <caret line="125" column="76" selection-start-line="125" selection-start-column="76" selection-end-line="125" selection-end-column="76" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
               </folding>
@@ -518,7 +508,19 @@
       <option name="project" value="LOCAL" />
       <updated>1439348735167</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="consider just reducing to syns and ants">
+      <created>1439349526920</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1439349526920</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TODO - add distribution stats">
+      <created>1439349786502</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1439349786502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -558,7 +560,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <MESSAGE value="modifying to share as code share" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifying to share as code share" />
+    <MESSAGE value="consider just reducing to syns and ants" />
+    <MESSAGE value="TODO - add distribution stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO - add distribution stats" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -585,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/accessWordnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1821248">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -594,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/Visualization/visualize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6357504">
-          <caret line="249" column="56" selection-start-line="249" selection-start-column="56" selection-end-line="249" selection-end-column="56" />
+          <caret line="125" column="76" selection-start-line="125" selection-start-column="76" selection-end-line="125" selection-end-column="76" />
           <folding>
             <element signature="e#25#43#0" expanded="true" />
           </folding>

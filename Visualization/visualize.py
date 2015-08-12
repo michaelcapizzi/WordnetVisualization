@@ -111,12 +111,19 @@ labels = kmeans.labels_
 centroids = kmeans.cluster_centers_
 
 syn_cluster = kmeans.predict(syn_output)
+#TODO add distribution count
+(syn_cluster1, syn_cluster2) = (0, 0)
 print("\n")
 print("synonyms are in the following clusters: " + str(syn_cluster).strip('[]'))
+print("distribution: cluster #1 --> " + str() + ", cluster #2 --> " + str())
 print("\n")
 
 ant_cluster = kmeans.predict(ant_output)
+#TODO add distribution count
+(ant_cluster1, ant_cluster2) = (0, 0)
+print("\n")
 print("antonyms are in the following clusters: " + str(ant_cluster).strip('[]'))
+print("distribution: cluster #1 --> " + str() + ", cluster #2 --> " + str())
 print("\n")
 
 ####### plot results
