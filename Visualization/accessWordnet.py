@@ -6,6 +6,8 @@ from nltk.corpus import wordnet
 
 # TODO add loop capacity
 # TODO add POS capacity
+        #posSynsets = list(itertools.ifilter(lambda x: x.pos() == pos, wordnet.synsets(word)))
+
 def get_wn_relation(word, relationship):
     worddict = []
 
